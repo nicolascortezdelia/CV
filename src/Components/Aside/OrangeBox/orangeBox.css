@@ -1,0 +1,111 @@
+:root {
+  /* font size */
+  --h1-desktops-xl: 3.5em;
+  --h1-desktops-l: 2em;
+  --h1-tablets: 1.7em;
+  --h1-phones-s: 1.3em;
+  --h1-phones-xs: 2.9em;
+  --p-tablets: 0.9em;
+  /* color */
+  --grey-color: rgb(180, 180, 180);
+  --orange-color: #e65100;
+}
+
+.box {
+  padding: 1em;
+  box-shadow: 0 0 30px -7px black;
+  text-align: start;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  word-break: break-all;
+}
+
+.name{
+  font-weight: 300;
+}
+
+.box p {
+  margin: 3em 0;
+  text-align: justify;
+}
+
+hr {
+  height: 0.15em;
+  background-color: var(--grey-color);
+  border-left: 2em solid #fff;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.box h5 {
+  margin-top: 2em;
+}
+
+.box h6 {
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  h1 {
+    font-size: var(--h1-phones-xs);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  h1 {
+    font-size: var(--h1-tablets);
+  }
+
+  h6 {
+    margin-top: 0.7em;
+    font-size: 0.9em;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: var(--p-tablets);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: var(--h1-tablets);
+  }
+
+  h6 {
+    margin-top: 0.7em;
+    font-size: 0.9em;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: var(--p-tablets);
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1599px) {
+  h1 {
+    font-size: var(--h1-desktops-l);
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .box {
+    padding: 1.5em;
+  }
+
+  h1 {
+    font-size: var(--h1-desktops-xl);
+  }
+}
