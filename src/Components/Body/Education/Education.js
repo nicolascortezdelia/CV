@@ -1,17 +1,17 @@
 import React from "react";
-import "./experience.css";
+import "../Education/education.css";
 
-const Experience = () => {
+const Education = () => {
   return (
-    <section className="experience row" id="experience">
+    <section className="education row" id="education">
       {/* Tittles of sections */}
       <div className="valign-wrapper">
         <div className="col s2 align-icons">
-          <i className="fas fa-2x fa-briefcase sections-icons"></i>
+          <i className="fas fa-2x fa-book sections-icons"></i>
         </div>
         <div className="col s10">
           <h5 className="tittle-weight">
-            <b>EXPERIENCE</b>
+            <b>EDUCATION</b>
           </h5>
           <hr />
         </div>
@@ -78,4 +78,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

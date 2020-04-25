@@ -3,6 +3,10 @@
   flex-direction: row-reverse;
 }
 
+.sidenav li a {
+  font-size: 1.2em;
+}
+
 /* Small devices (phones, between 320px and 599px) */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
 }

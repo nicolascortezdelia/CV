@@ -6,6 +6,8 @@ import Picture from "./Components/Aside/Picture/Picture";
 import OrangeBox from "./Components/Aside/OrangeBox/OrangeBox";
 import Contact from "./Components/Aside/Contact/Contact";
 import Experience from "./Components/Body/Experience/Experience";
+import Education from './Components/Body/Education/Education'
+import Skills from './Components/Body/Skills/Skills'
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         </div>
         <div className="col s12 m7 l7 xl8 sections">
           <Experience />
+          <Education />
+          <Skills/>
         </div>
       </main>
       <Footer />

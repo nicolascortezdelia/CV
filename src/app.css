@@ -1,5 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .column-aside {
   padding: 0 !important;
+}
+
+.sections {
+  padding: 2.5em 1em !important;
+}
+
+.sections hr {
+  border-color: #e65100;
+}
+
+.sections h5 {
+  margin: 0;
+}
+
+.sections-icons {
+  display: flex;
+  background-color: #e65100;
+  border-radius: 50%;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.align-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.content-sections {
+  padding: 1em 0;
 }
 
 .box-position {
@@ -10,10 +47,21 @@
 
 /* Small devices (phones, between 320px and 599px) */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+  .sections {
+    padding: 2.5em 0 !important;
+  }
+
+  p{
+    font-size: 14.5px;
+  }
 }
 
 /* Medium devices (tablets, between 600px and 767px) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .sections-icons {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* Large devices (desktops, between 768px and 991px) */

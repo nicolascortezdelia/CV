@@ -31,17 +31,22 @@ const Header = () => {
           {/* Menu Dropdown button */}
           <ul id="button-dropdown" class="dropdown-content text-orange">
             <li>
-              <a className="grey-text text-darken-3" href="#!">
+              <a className="grey-text text-darken-3" href="index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="grey-text text-darken-3" href="#experience">
                 Experience
               </a>
             </li>
             <li>
-              <a className="grey-text text-darken-3" href="#!">
+              <a className="grey-text text-darken-3" href="#education">
                 Education
               </a>
             </li>
             <li>
-              <a className="grey-text text-darken-3" href="#!">
+              <a className="grey-text text-darken-3" href="#skills">
                 Prof Skills & Language Skills
               </a>
             </li>
@@ -56,16 +61,16 @@ const Header = () => {
       {/* Menu burger button */}
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <a href="sass.html">Home</a>
+          <a href="index.html">Home</a>
         </li>
         <li>
-          <a href="badges.html">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="collapsible.html">Education</a>
+          <a href="#education">Education</a>
         </li>
         <li>
-          <a href="mobile.html">Prof Skills & Language Skills</a>
+          <a href="#skills">Prof Skills & Language Skills</a>
         </li>
         <li>
           <a href="mobile.html">Porfolio</a>
