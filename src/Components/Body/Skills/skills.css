@@ -1,78 +1,85 @@
-.content-skills .circles{
-    position: relative;
-    top: 29px;
-    left: -5px;
+.content-skills .circles {
+  position: relative;
+  top: 29px;
+  left: -5px;
 }
 
-.content-skills h6{
-    padding-left: 1em;
+.content-skills h6 {
+  padding-left: 1em;
 }
 
 /* Small devices (phones, between 320px and 599px) */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
-    .content-skills{
-        padding: 1em .75rem!important;
-    }
+  .content-skills {
+    padding: 1em 0.75rem !important;
+  }
 
-    .content-skills h6{
-        margin: 0 0 .8em 0;
-    padding: .7666666667rem 0 .46rem 0;
-}
+  .content-skills h6 {
+    margin: 0 0 0.8em 0;
+    padding: 0.7666666667rem 0 0.46rem 0;
+  }
 
-.content-skills .circles{
+  .content-skills .circles {
     display: none;
-}
+  }
 }
 
 /* Medium devices (tablets, between 600px and 767px) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
-    .content-skills{
-        padding: 1em .75rem!important;
-    }
+  .content-skills {
+    padding: 1em 0.75rem !important;
+  }
 
-    .content-skills .circles{
+  .content-skills .circles {
     top: 14px;
-}
+  }
 
-    .content-skills h6{
-        margin: 0 0 .8em 0;
-}
+  .content-skills h6 {
+    margin: 0 0 0.8em 0;
+  }
 }
 
 /* Large devices (desktops, between 768px and 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .content-skills{
-        padding-top: 1em!important;
-    }
+  .content-skills {
+    padding-top: 1em !important;
+  }
 
-        .content-skills .circles{
+  .content-skills .circles {
     top: 16px;
-}
+  }
 
-    .content-skills h6{
-        margin: 0 0 .8em 0;
-}
-    
+  .content-skills h6 {
+    margin: 0 0 0.8em 0;
+  }
 }
 
 /* Extra large devices (large desktops, between 992px and 1599px) */
 @media only screen and (min-width: 992px) and (max-width: 1599px) {
-    .content-skills{
-        padding-top: 1em!important;
-    }
+  .content-skills {
+    padding-top: 1em !important;
+  }
 
-            .content-skills .circles{
+  .content-skills .circles {
     top: 16px;
-}
+  }
 
-    .content-skills h6{
-        margin: 0 0 .8em 0;
-}
+  .content-skills h6 {
+    margin: 0 0 0.8em 0;
+  }
 }
 
 /* Extra extra large devices (extra large desktops, 1600px and up) */
 @media only screen and (min-width: 1600px) {
-    .content-skills{
-        padding-top: 1.5em!important;
-    }
+  .content-skills {
+    padding-top: 1.5em !important;
+  }
+
+  .content-skills .circles {
+    top: 16px;
+  }
+
+  .content-skills h6 {
+    margin: 0 0 1em 0;
+  }
 }

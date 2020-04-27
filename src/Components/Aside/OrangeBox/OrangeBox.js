@@ -13,12 +13,11 @@ const OrangeBox = () => {
       <h5>PROFILE</h5>
       <hr />
       <p className="description">
-        What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-        and typesetting industry. Lorem Ipsum has been the industry's standard
-        dummy text ever since the 1500s, when an unknown printer took a galley
-        of type and scrambled it to make a type specimen book. It has survived
-        not only five centuries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with
+        My name is Jonathan Plodzien and i am 25 years old. I'm from Tucumán
+        Argentina. I am a FullStack web developer. I graduated from Rolling Code
+        School in Tucumán, Argentina. I am currently working as a professional
+        developer. I usually work as a team and help my colleagues. I really
+        like learning new things and I also love music and sweet things
       </p>
     </div>
   );

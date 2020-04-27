@@ -1,73 +1,81 @@
 import React from "react";
 import "./experience.css";
+import Fade from "react-reveal/Fade";
 
 const Experience = () => {
   return (
-    <section className="experience row" id="experience">
-      {/* Tittles of sections */}
-      <div className="valign-wrapper">
-        <div className="col s2 align-icons">
-          <i className="fas fa-2x fa-briefcase sections-icons"></i>
+    <section className="experience row scrollspy" id="experience">
+      <Fade bottom>
+        {/* Tittles of sections */}
+        <div className="valign-wrapper">
+          <div className="col s2 align-icons">
+            <i className="fas fa-2x fa-briefcase sections-icons"></i>
+          </div>
+          <div className="col s10">
+            <h5 className="tittle-weight">
+              <b>EXPERIENCE</b>
+            </h5>
+            <hr />
+          </div>
         </div>
-        <div className="col s10">
-          <h5 className="tittle-weight">
-            <b>EXPERIENCE</b>
-          </h5>
-          <hr />
+        {/* Content experience */}
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2013 - 2014</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>
+              <div className="job">Lecfer Tourism.</div>
+              Promoter and Coordinator.
+            </h6>
+            <p>
+              Responsible for promoting the company and coordinating clients
+              before and during the trip
+            </p>
+          </div>
         </div>
-      </div>
-      {/* Content experience */}
-      <div className="row content-sections">
-        <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>2017 - 2020</h6>
+      </Fade>
+      <Fade bottom>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2015 - 2016</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>
+              <div className="job">
+                Hairdressing Adrián Serrano Contemporary Stylists.
+              </div>
+              Receptionist and manager.
+            </h6>
+            <p>
+              As a receptionist my task was to receive customers in the best
+              way. And as manager he had the task of controlling and managing
+              the cashier, opening and closing the business, controlling the
+              hours of the employees and also cleaning the place
+            </p>
+          </div>
         </div>
-        <div className="col s12 m8 xl9 content-border-left">
-          <div className="circles"></div>
-          <h6>
-            Teleperformance
-            <br />
-            <b>Agente Telefonico</b>
-          </h6>
-          <p>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been
-          </p>
+      </Fade>
+      <Fade bottom>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2017 - 2020</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>
+              <div className="job">Teleperformance.</div>
+              Telephone Agent.
+            </h6>
+            <p>
+              I worked in customer service in the technical service area for
+              Cablevision and Edenor companies.
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="row content-sections">
-        <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>2017 - 2020</h6>
-        </div>
-        <div className="col s12 m8 xl9 content-border-left">
-          <div className="circles"></div>
-          <h6>
-            Teleperformance
-            <br />
-            <b>Agente Telefonico</b>
-          </h6>
-          <p>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been
-          </p>
-        </div>
-      </div>
-      <div className="row content-sections">
-        <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>2017 - 2020</h6>
-        </div>
-        <div className="col s12 m8 xl9 content-border-left">
-          <div className="circles"></div>
-          <h6>
-            Teleperformance
-            <br />
-            <b>Agente Telefonico</b>
-          </h6>
-          <p>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been
-          </p>
-        </div>
-      </div>
+      </Fade>
     </section>
   );
 };

@@ -3,17 +3,14 @@ import "../Header/header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className="scrollspy">
       <div className="navbar-fixed">
-        <nav className="orange darken-4">
+        <nav>
           <div className="nav-wrapper container">
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-              <li>
-                <a href="#">Contact</a>
-              </li>
               {/* Button dropdown */}
               <li>
                 <a
@@ -31,11 +28,6 @@ const Header = () => {
           {/* Menu Dropdown button */}
           <ul id="button-dropdown" class="dropdown-content text-orange">
             <li>
-              <a className="grey-text text-darken-3" href="#main">
-                Home
-              </a>
-            </li>
-            <li>
               <a className="grey-text text-darken-3" href="#experience">
                 Experience
               </a>
@@ -51,8 +43,13 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a className="grey-text text-darken-3" href="#!">
+              <a className="grey-text text-darken-3" href="#portfolio">
                 Porfolio
+              </a>
+            </li>
+            <li>
+              <a className="grey-text text-darken-3" href="#gitlab">
+                Git & Linkedin
               </a>
             </li>
           </ul>
@@ -73,10 +70,10 @@ const Header = () => {
           <a href="#skills">Prof Skills & Language Skills</a>
         </li>
         <li>
-          <a href="mobile.html">Porfolio</a>
+          <a href="#portfolio">Porfolio</a>
         </li>
         <li>
-          <a href="mobile.html">Contact</a>
+          <a href="#gitlab">Git & Linkedin</a>
         </li>
       </ul>
     </header>

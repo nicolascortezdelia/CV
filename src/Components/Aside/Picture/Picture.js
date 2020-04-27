@@ -6,7 +6,7 @@ const Picture = () => {
   return (
     <aside>
       <div>
-        <img src={profilePicture} alt="profilepicture" />
+        <img class="materialboxed" src={profilePicture} alt="profilepicture" />
       </div>
     </aside>
   );
