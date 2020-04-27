@@ -38,7 +38,8 @@
 /* Medium devices (tablets, between 600px and 767px) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .contact {
-    padding: 0 .8em;
+    padding: 1em 0.8em;
+    bottom: 0em;
   }
 }
 

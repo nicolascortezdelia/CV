@@ -5,12 +5,6 @@
   margin: 0 !important;
 }
 
-.education,
-.skills,
-.portfolio {
-  padding-top: 2em;
-}
-
 .content-border-left {
   border-left: 0.15em solid;
   border-color: rgb(180, 180, 180);
@@ -31,8 +25,13 @@
   margin-bottom: 0;
 }
 
+.content-sections {
+  padding: 1em 0;
+}
+
 /* Small devices (phones, between 320px and 599px) */
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+  .experience,
   .education,
   .skills,
   .portfolio {
@@ -40,7 +39,7 @@
   }
 
   .content-sections h6 {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
   }
 
@@ -49,50 +48,98 @@
   }
 
   .bg-years {
-  background-image: linear-gradient(
-    270deg,
-    rgb(249, 193, 102, 0.4) 0%,
-    rgb(249, 193, 102, 0.4) 4%,
-    rgb(248, 174, 96, 0.4) 4%,
-    rgb(248, 174, 96, 0.4) 38%,
-    rgb(246, 156, 91, 0.4) 38%,
-    rgb(246, 156, 91, 0.4) 41%,
-    rgb(245, 137, 85, 0.4) 41%,
-    rgb(245, 137, 85, 0.4) 44%,
-    rgb(244, 118, 79, 0.4) 44%,
-    rgb(244, 118, 79, 0.4) 71%,
-    rgb(242, 100, 74, 0.4) 71%,
-    rgb(242, 100, 74, 0.4) 74%,
-    rgb(241, 81, 68, 0.4) 74%,
-    rgb(241, 81, 68, 0.4) 100%
-  );
-}
+    background-image: linear-gradient(
+      270deg,
+      rgb(249, 193, 102, 0.7) 0%,
+      rgb(249, 193, 102, 0.7) 4%,
+      rgb(248, 174, 96, 0.7) 4%,
+      rgb(248, 174, 96, 0.7) 38%,
+      rgb(246, 156, 91, 0.7) 38%,
+      rgb(246, 156, 91, 0.7) 41%,
+      rgb(245, 137, 85, 0.7) 41%,
+      rgb(245, 137, 85, 0.7) 44%,
+      rgb(244, 118, 79, 0.7) 44%,
+      rgb(244, 118, 79, 0.7) 71%,
+      rgb(230, 81, 74, 0.7) 71%,
+      rgb(230, 81, 74, 0.7) 74%,
+      rgb(230, 81, 68, 0.7) 74%,
+      rgb(230, 81, 68, 0.7) 100%
+    );
+  }
 }
 
 /* Medium devices (tablets, between 600px and 767px) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .experience,
+  .education {
+    padding-top: 2em;
+  }
+
+  .skills,
+  .portfolio {
+    padding-top: 3em;
+  }
+
+  .content-sections {
+    padding: 0;
+  }
+
   .content-sections h6 {
     font-size: 1.2em;
+    font-weight: bold;
   }
 }
 
 /* Large devices (desktops, between 768px and 991px) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .experience,
+  .education {
+    padding-top: 2em;
+  }
+
+  .skills,
+  .portfolio {
+    padding-top: 2em;
+  }
+
   .content-sections h6 {
     font-size: 1.4em;
+    font-weight: bold;
   }
 }
 
 /* Extra large devices (large desktops, between 992px and 1599px) */
 @media only screen and (min-width: 992px) and (max-width: 1599px) {
+  .experience,
+  .education {
+    padding-top: 6em;
+  }
+
+  .skills,
+  .portfolio {
+    padding-top: 5em;
+  }
+
   .content-sections h6 {
     font-size: 1.3em;
+    font-weight: bold;
   }
 }
 
 /* Extra extra large devices (extra large desktops, 1600px and up) */
 @media only screen and (min-width: 1600px) {
+  .experience,
+  .education {
+    padding-top: 8em;
+  }
+
+  .skills,
+  .portfolio {
+    padding-top: 5em;
+  }
+
   .content-sections h6 {
     font-size: 1.5em;
+    font-weight: bold;
   }
 }

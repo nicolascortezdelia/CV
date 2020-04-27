@@ -31,7 +31,7 @@ const Header = () => {
           {/* Menu Dropdown button */}
           <ul id="button-dropdown" class="dropdown-content text-orange">
             <li>
-              <a className="grey-text text-darken-3" href="index.html">
+              <a className="grey-text text-darken-3" href="#main">
                 Home
               </a>
             </li>
@@ -61,7 +61,7 @@ const Header = () => {
       {/* Menu burger button */}
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <a href="index.html">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#experience">Experience</a>

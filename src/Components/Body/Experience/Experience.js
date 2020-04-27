@@ -19,9 +19,7 @@ const Experience = () => {
       {/* Content experience */}
       <div className="row content-sections">
         <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>
-            <b>2017 - 2020</b>
-          </h6>
+          <h6>2017 - 2020</h6>
         </div>
         <div className="col s12 m8 xl9 content-border-left">
           <div className="circles"></div>
@@ -38,9 +36,7 @@ const Experience = () => {
       </div>
       <div className="row content-sections">
         <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>
-            <b>2017 - 2020</b>
-          </h6>
+          <h6>2017 - 2020</h6>
         </div>
         <div className="col s12 m8 xl9 content-border-left">
           <div className="circles"></div>
@@ -57,9 +53,7 @@ const Experience = () => {
       </div>
       <div className="row content-sections">
         <div className="col s12 m4 xl3 center-align bg-years">
-          <h6>
-            <b>2017 - 2020</b>
-          </h6>
+          <h6>2017 - 2020</h6>
         </div>
         <div className="col s12 m8 xl9 content-border-left">
           <div className="circles"></div>

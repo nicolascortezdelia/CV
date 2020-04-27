@@ -1,6 +1,5 @@
 .box {
   padding: 1em;
-  box-shadow: 0 0 30px -7px black;
   text-align: start;
   color: #fff;
 }
@@ -10,7 +9,7 @@ h1 {
   word-break: break-all;
 }
 
-.name{
+.name {
   font-weight: 300;
 }
 
