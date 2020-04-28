@@ -15,8 +15,9 @@ const OrangeBox = () => {
       <p className="description">
         My name is Jonathan Plodzien and I am 25 years old. I live in Tucumán,
         Argentina with my parents and brothers. Currently my profession is full
-        stack web developer. I usually work as a team and collaborate with my
-        colleagues. I really like learning new things and i also love music
+        stack web developer. I usually like to work as a team and collaborate
+        with my colleagues. I really like learning new things and I also love
+        music
       </p>
     </div>
   );
