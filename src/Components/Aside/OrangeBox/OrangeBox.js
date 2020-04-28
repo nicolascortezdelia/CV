@@ -3,7 +3,7 @@ import "../OrangeBox/orangeBox.css";
 
 const OrangeBox = () => {
   return (
-    <div className="box orange darken-4">
+    <div className="box">
       <h1 class="name">
         JONATHAN
         <br />

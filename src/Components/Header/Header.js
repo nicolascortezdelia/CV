@@ -44,7 +44,7 @@ const Header = () => {
             </li>
             <li>
               <a className="grey-text text-darken-3" href="#portfolio">
-                Porfolio
+                Portfolio
               </a>
             </li>
             <li>
@@ -70,7 +70,7 @@ const Header = () => {
           <a href="#skills">Prof Skills & Language Skills</a>
         </li>
         <li>
-          <a href="#portfolio">Porfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
           <a href="#gitlab">Git & Linkedin</a>
