@@ -13,11 +13,10 @@ const OrangeBox = () => {
       <h5>PROFILE</h5>
       <hr />
       <p className="description">
-        My name is Jonathan Plodzien and i am 25 years old. I'm from Tucumán
-        Argentina. I am a FullStack web developer. I graduated from Rolling Code
-        School in Tucumán, Argentina. I am currently working as a professional
-        developer. I usually work as a team and help my colleagues. I really
-        like learning new things and I also love music and sweet things
+        My name is Jonathan Plodzien and I am 25 years old. I live in Tucumán,
+        Argentina with my parents and brothers. Currently my profession is full
+        stack web developer. I usually work as a team and collaborate with my
+        colleagues. I really like learning new things and i also love music
       </p>
     </div>
   );
