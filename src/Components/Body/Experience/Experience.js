@@ -51,7 +51,7 @@ const Experience = () => {
             </h6>
             <p>
               As a receptionist my task was to receive customers in the best
-              way. And as manager he had the task of controlling and managing
+              way. And as manager I had the task of controlling and managing
               the cashier, opening and closing the business, controlling the
               hours of the employees and also cleaning the place
             </p>
