@@ -19,7 +19,7 @@ const Skills = () => {
       "CSS",
       "Bootstrap",
       "Git",
-      "Metodologias agiles",
+      "Agile methodologies",
     ],
     datasets: [
       {
