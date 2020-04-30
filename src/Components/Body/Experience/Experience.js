@@ -26,7 +26,7 @@ const Experience = () => {
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job">Lecfer Tourism.</div>
+              <div className="job">Lecfer Tourismos.</div>
               Promoter and Coordinator.
             </h6>
             <p>
@@ -45,7 +45,7 @@ const Experience = () => {
             <div className="circles"></div>
             <h6>
               <div className="job">
-                Hairdressing Adrián Serrano Contemporary Stylists.
+                Hairdressing Adrián Serrano Estilistas contemporaneos.
               </div>
               Receptionist and manager.
             </h6>

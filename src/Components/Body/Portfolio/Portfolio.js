@@ -12,6 +12,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio scrollspy" id="portfolio">
       <Fade bottom>
+        {/* Tittles of sections */}
         <div className="valign-wrapper">
           <div className="col s2 m1 align-icons">
             <i className="fas fa-2x fa-folder sections-icons"></i>
@@ -24,7 +25,6 @@ const Portfolio = () => {
           </div>
         </div>
       </Fade>
-      {/* Tittles of sections */}
       {/* Contain section */}
       <Fade bottom>
         <div className="row container-portfolio">
@@ -32,32 +32,32 @@ const Portfolio = () => {
             <img
               class="portfolio-col-3 z-depth-2 materialboxed"
               data-caption="
-Page to draw random names and choose a scrum"
+Choose a random scrum. Desktop"
               src={sorteoscrum1}
-              alt="Sorteo Scrum Page"
+              alt="Scrum project page"
             ></img>
             <img
               class="materialboxed portfolio-col-3 z-depth-2"
-              data-caption="Rolling Vet Veterinary Clinic Project, 
-mobile version"
+              data-caption="Rolling Vet Veterinary Clinic Project. 
+Mobile"
               src={clinica2}
-              alt="Clinica Page"
+              alt="Clinic project page"
             ></img>
           </div>
           <div className="col s12 m6 l4">
             <img
               class="z-depth-2 materialboxed portfolio-col-3"
               data-caption="
-Page to draw random names and choose a scrum.mobile version"
+Choose a random scrum. Mobile"
               src={sorteoscrum2}
-              alt="Sorteo Scrum Page"
+              alt="Scrum project page"
             ></img>
             <img
               class="materialboxed z-depth-2 portfolio-col-3"
               data-caption="
-Rolling Vet Veterinary Clinic Project"
+Rolling Vet Veterinary Clinic Project. Desktop"
               src={clinica1}
-              alt="Clinica Page"
+              alt="Clinic project page"
             ></img>
           </div>
           <div className="col s12 m12 l4">
@@ -66,19 +66,19 @@ Rolling Vet Veterinary Clinic Project"
                 <img
                   class="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Lager Beer project (Stella Artois)"
+Lager Beer project (Stella Artois). Desktop"
                   src={stella1}
-                  alt="Lager Beer page"
+                  alt="Beer project page"
                 ></img>
               </div>
               <div className="col m6 l12 d-md-none">
                 <img
                   class="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Lager Beer project (Stella Artois), 
-mobile version"
+Lager Beer project (Stella Artois). 
+Mobile"
                   src={stella2}
-                  alt="Lager Beer page"
+                  alt="Beer project page"
                 ></img>
               </div>
             </div>

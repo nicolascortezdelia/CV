@@ -11,9 +11,9 @@ const Contact = () => {
           <div className="contact-row">
             <i class="fas fa-map-marker-alt"></i>
             <p>
-              Marcos Avellaneda 1571,
+              Tucumán,
               <br />
-              San Miguel de Tucuman,
+              San Miguel de Tucumán,
               <br />
               Argentina.
             </p>
