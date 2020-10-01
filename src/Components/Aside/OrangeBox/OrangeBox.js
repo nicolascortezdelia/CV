@@ -4,7 +4,7 @@ import "../OrangeBox/orangeBox.css";
 const OrangeBox = () => {
   return (
     <div className="box">
-      <h1 class="name">
+      <h1 className="name">
         JONATHAN
         <br />
         <b>PLODZIEN</b>
@@ -13,11 +13,11 @@ const OrangeBox = () => {
       <h5>PROFILE</h5>
       <hr />
       <p className="description">
-        My name is Jonathan Plodzien and I am 25 years old. I live in Tucumán,
-        Argentina with my parents and brothers. Currently my profession is full
-        stack web developer. I usually like to work as a team and collaborate
-        with my colleagues. I really like learning new things and I also love
-        music
+        My name is Jonathan Plodzien and I am 26 years old. I live in Tucumán,
+        Argentina with my parents and brothers. I am a full stack web developer.
+        I usually like to work as a team and collaborate with my colleagues.
+        Also I am a responsible in all my works and I like to set goals and
+        complete it.
       </p>
     </div>
   );

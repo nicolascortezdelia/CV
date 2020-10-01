@@ -66,7 +66,7 @@ const Skills = () => {
         borderWidth: 1,
         hoverBackgroundColor: "#e6510096",
         hoverBorderColor: "#e65100",
-        data: [100, 40, 50, 60, 0],
+        data: [100, 55, 60, 80, 0],
       },
     ],
   };

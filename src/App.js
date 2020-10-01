@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App" id="home">
       <Header />
-      <ul class="section table-of-contents">
+      <ul className="section table-of-contents">
         <li>
           <a href="#experience">Experience</a>
         </li>

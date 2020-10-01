@@ -10,23 +10,23 @@ const Header = () => {
             <a href="#" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <ul id="nav-mobile" className="left hide-on-med-and-down">
               {/* Button dropdown */}
               <li>
                 <a
-                  class="dropdown-trigger"
+                  className="dropdown-trigger"
                   href="#"
                   data-target="button-dropdown"
                 >
                   Experience and more
-                  <i class="material-icons right">arrow_drop_down</i>
+                  <i className="material-icons right">arrow_drop_down</i>
                 </a>
               </li>
             </ul>
           </div>
 
           {/* Menu Dropdown button */}
-          <ul id="button-dropdown" class="dropdown-content text-orange">
+          <ul id="button-dropdown" className="dropdown-content text-orange">
             <li>
               <a className="grey-text text-darken-3" href="#experience">
                 Experience

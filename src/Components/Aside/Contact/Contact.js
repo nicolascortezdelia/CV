@@ -9,7 +9,7 @@ const Contact = () => {
         <hr />
         <div>
           <div className="contact-row">
-            <i class="fas fa-map-marker-alt"></i>
+            <i className="fas fa-map-marker-alt"></i>
             <p>
               Tucumán,
               <br />
@@ -19,7 +19,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-row">
-            <i class="fas fa-phone-alt"></i>
+            <i className="fas fa-phone-alt"></i>
             <p>
               +54 381 6126830
               <br />
@@ -27,7 +27,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-row">
-            <i class="fas fa-envelope"></i>
+            <i className="fas fa-envelope"></i>
             <p>joonyyplo@gmail.com</p>
           </div>
         </div>

@@ -30,14 +30,14 @@ const Portfolio = () => {
         <div className="row container-portfolio">
           <div className="col s12 m6 l4">
             <img
-              class="portfolio-col-3 z-depth-2 materialboxed"
+              className="portfolio-col-3 z-depth-2 materialboxed"
               data-caption="
 Choose a random scrum. Desktop"
               src={sorteoscrum1}
               alt="Scrum project page"
             ></img>
             <img
-              class="materialboxed portfolio-col-3 z-depth-2"
+              className="materialboxed portfolio-col-3 z-depth-2"
               data-caption="Rolling Vet Veterinary Clinic Project. 
 Mobile"
               src={clinica2}
@@ -46,14 +46,14 @@ Mobile"
           </div>
           <div className="col s12 m6 l4">
             <img
-              class="z-depth-2 materialboxed portfolio-col-3"
+              className="z-depth-2 materialboxed portfolio-col-3"
               data-caption="
 Choose a random scrum. Mobile"
               src={sorteoscrum2}
               alt="Scrum project page"
             ></img>
             <img
-              class="materialboxed z-depth-2 portfolio-col-3"
+              className="materialboxed z-depth-2 portfolio-col-3"
               data-caption="
 Rolling Vet Veterinary Clinic Project. Desktop"
               src={clinica1}
@@ -64,7 +64,7 @@ Rolling Vet Veterinary Clinic Project. Desktop"
             <div className="row">
               <div className="col m12 l12">
                 <img
-                  class="materialboxed portfolio-col-3 z-depth-2"
+                  className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
 Lager Beer project (Stella Artois). Desktop"
                   src={stella1}
@@ -73,7 +73,7 @@ Lager Beer project (Stella Artois). Desktop"
               </div>
               <div className="col m6 l12 d-md-none">
                 <img
-                  class="materialboxed portfolio-col-3 z-depth-2"
+                  className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
 Lager Beer project (Stella Artois). 
 Mobile"

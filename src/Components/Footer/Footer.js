@@ -3,24 +3,24 @@ import "../Footer/footer.css";
 
 const Footer = () => {
   return (
-    <footer class="page-footer scrollspy" id="gitlab">
-      <div class="container">
-        <div class="row container-footer">
-          <div class="col s12">
-            <h5 class="white-text">Jonathan Plodzien</h5>
+    <footer className="page-footer scrollspy" id="gitlab">
+      <div className="container">
+        <div className="row container-footer">
+          <div className="col s12">
+            <h5 className="white-text">Jonathan Plodzien</h5>
           </div>
-          <div class="col s12">
+          <div className="col s12">
             <a href="https://github.com/JonyPlo" target="_blank">
-              <i class="fab fa-github white-text"></i>
+              <i className="fab fa-github white-text"></i>
             </a>
             <a href="https://gitlab.com/Joonyyplo" target="_blank">
-              <i class="fab fa-gitlab white-text"></i>
+              <i className="fab fa-gitlab white-text"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/jonathan-plodzien-22baa376/"
               target="_blank"
             >
-              <i class="fab fa-linkedin white-text"></i>
+              <i className="fab fa-linkedin white-text"></i>
             </a>
           </div>
         </div>

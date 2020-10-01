@@ -6,7 +6,11 @@ const Picture = () => {
   return (
     <aside>
       <div>
-        <img class="materialboxed" src={profilePicture} alt="profile picture" />
+        <img
+          className="materialboxed"
+          src={profilePicture}
+          alt="profile picture"
+        />
       </div>
     </aside>
   );
