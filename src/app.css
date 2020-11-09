@@ -17,7 +17,7 @@
 }
 
 .sections-icons {
-  display: flex;
+  display: flex!important;
   background-color: #e65100;
   border-radius: 50%;
   color: #fff;
