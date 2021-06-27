@@ -20,10 +20,11 @@ const Skills = () => {
       "Bootstrap",
       "Git",
       "Agile methodologies",
+      "Angular",
     ],
     datasets: [
       {
-        data: [30, 30, 70, 80, 95, 80, 100, 90, 80],
+        data: [40, 40, 75, 85, 90, 80, 100, 90, 85, 50],
         backgroundColor: [
           "#215732",
           "#5dab50",
@@ -34,6 +35,7 @@ const Skills = () => {
           "#563d7c",
           "#fca326",
           "#1e90ff",
+          "#d6122e",
         ],
         hoverBackgroundColor: [
           "#1a4628",
@@ -45,6 +47,7 @@ const Skills = () => {
           "#4e3870",
           "#db8e23",
           "#1b7ee2",
+          "#ae0f26",
         ],
       },
     ],
@@ -66,7 +69,7 @@ const Skills = () => {
         borderWidth: 1,
         hoverBackgroundColor: "#e6510096",
         hoverBorderColor: "#e65100",
-        data: [100, 55, 60, 80, 0],
+        data: [100, 70, 70, 80, 0],
       },
     ],
   };
@@ -91,7 +94,7 @@ const Skills = () => {
         <Fade bottom>
           <div className="col s12 m6 l6 xl6 content-skills content-sections">
             <div className="circles"></div>
-            <h6 className="bg-years">Pofessional Skills</h6>
+            <h6 className="bg-years">Pofessional Skills - From 0 to 100</h6>
             <Pie data={dataPie} width={160} />
           </div>
         </Fade>

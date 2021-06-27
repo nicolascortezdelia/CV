@@ -2,8 +2,8 @@ import React from "react";
 import "../Portfolio/portfolio.css";
 import clinica1 from "../../../img/portfolio/clinica1.png";
 import clinica2 from "../../../img/portfolio/clinica2.png";
-import stella1 from "../../../img/portfolio/stella1.png";
-import stella2 from "../../../img/portfolio/stella2.png";
+import Laboris from "../../../img/portfolio/Laboris.png";
+import Stepmed from "../../../img/portfolio/Stepmed.png";
 import sorteoscrum1 from "../../../img/portfolio/sorteoscrum1.png";
 import sorteoscrum2 from "../../../img/portfolio/sorteoscrum2.png";
 import Fade from "react-reveal/Fade";
@@ -66,8 +66,8 @@ Rolling Vet Veterinary Clinic Project. Desktop"
                 <img
                   className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Lager Beer project (Stella Artois). Desktop"
-                  src={stella1}
+Application for medical controls https://panel.stepmed.com.ar/login"
+                  src={Stepmed}
                   alt="Beer project page"
                 ></img>
               </div>
@@ -75,9 +75,8 @@ Lager Beer project (Stella Artois). Desktop"
                 <img
                   className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Lager Beer project (Stella Artois). 
-Mobile"
-                  src={stella2}
+Administrative application for lawyers: https://testlaboris.netlify.app/"
+                  src={Laboris}
                   alt="Beer project page"
                 ></img>
               </div>

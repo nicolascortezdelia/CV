@@ -18,15 +18,15 @@ const Education = () => {
             <hr />
           </div>
         </div>
-        {/* Content experience */}
+        {/* Content education */}
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>1998 - 2005</h6>
+            <h6>2019 - 2020</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
-            <h6>Primary School</h6>
-            <p>School: Dr. Raúl Colombres.</p>
+            <h6>Rolling Code School</h6>
+            <p>Completed full stack web developer course.</p>
           </div>
         </div>
       </Fade>
@@ -49,12 +49,12 @@ const Education = () => {
       <Fade bottom>
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2019 - 2020</h6>
+            <h6>1998 - 2005</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
-            <h6>Rolling Code School</h6>
-            <p>Completed full stack web developer course.</p>
+            <h6>Primary School</h6>
+            <p>School: Dr. Raúl Colombres.</p>
           </div>
         </div>
       </Fade>

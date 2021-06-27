@@ -42,6 +42,25 @@ const Experience = () => {
       <Fade bottom>
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2020 - 2021</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>
+              <div className="job">
+                RollingCode School.
+              </div>
+              Software development.
+            </h6>
+            <p>
+              For 7 months I had the pleasure of working as a full stack developer for some web applications for clients of this company, applying technologies such as HTML, CSS, Javascript, ReactJS, AngularJS, Cordoba, MongoDB, NodeJS, Express
+            </p>
+          </div>
+        </div>
+      </Fade>
+      <Fade bottom>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
             <h6>2017 - 2020</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
@@ -53,28 +72,6 @@ const Experience = () => {
             <p>
               I worked in customer service in the technical service area for
               Cablevision and Edenor companies.
-            </p>
-          </div>
-        </div>
-      </Fade>
-      <Fade bottom>
-        <div className="row content-sections">
-          <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2015 - 2016</h6>
-          </div>
-          <div className="col s12 m8 xl9 content-border-left">
-            <div className="circles"></div>
-            <h6>
-              <div className="job">
-                Hairdressing Adrián Serrano Estilistas Contemporaneos.
-              </div>
-              Receptionist and manager.
-            </h6>
-            <p>
-              As a receptionist my task was to receive customers in the best
-              way. And as manager I had the task of controlling and managing the
-              cashier, opening and closing the business, controlling the hours
-              of the employees and also cleaning the place
             </p>
           </div>
         </div>

@@ -13,7 +13,7 @@ const OrangeBox = () => {
       <h5>PROFILE</h5>
       <hr />
       <p className="description">
-        My name is Jonathan Plodzien and I am 26 years old. I live in Tucumán,
+        My name is Jonathan Plodzien and I am 27 years old. I live in Tucumán,
         Argentina with my parents and brothers. I am a full stack web developer.
         I usually like to work as a team and collaborate with my colleagues.
         Also I am a responsible in all my works and I like to set goals and
