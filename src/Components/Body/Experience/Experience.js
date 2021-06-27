@@ -53,7 +53,7 @@ const Experience = () => {
               Software development.
             </h6>
             <p>
-              For 7 months I had the pleasure of working as a full stack developer for some web applications for clients of this company, applying technologies such as HTML, CSS, Javascript, ReactJS, AngularJS, Cordoba, MongoDB, NodeJS, Express
+              For 7 months I had the pleasure of working as a full stack developer for some web applications for clients of this company, applying technologies such as HTML, CSS, Javascript, ReactJS, AngularJS, Cordova Cli, MongoDB, NodeJS, Express
             </p>
           </div>
         </div>
