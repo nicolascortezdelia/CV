@@ -9,7 +9,7 @@ const Picture = () => {
         <img
           className="materialboxed"
           src={profilePicture}
-          alt="profile picture"
+          alt="profile"
         />
       </div>
     </aside>
