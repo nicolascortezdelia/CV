@@ -5,19 +5,17 @@ const OrangeBox = () => {
   return (
     <div className="box">
       <h1 className="name">
-        JONATHAN
+        Nicolás 
         <br />
-        <b>PLODZIEN</b>
+        <b>Cortez D'Elia</b>
       </h1>
       <h6>Full stack web Developer</h6>
       <h5>PROFILE</h5>
       <hr />
       <p className="description">
-        My name is Jonathan Plodzien and I am 27 years old. I live in Tucumán,
-        Argentina with my parents and brothers. I am a full stack web developer.
-        I usually like to work as a team and collaborate with my colleagues.
-        Also I am a responsible in all my works and I like to set goals and
-        complete it.
+        My name is Domingo Nicolás Cortez D'Elia and I am 28 years old. I live in Tucumán,
+        Argentina with my parents. I am a full stack web developer student at Rolling Code School. Also I have a law degree
+        
       </p>
     </div>
   );

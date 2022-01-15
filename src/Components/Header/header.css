@@ -10,8 +10,9 @@
 header nav {
   background-image: radial-gradient(
     circle at top right,
-    rgb(221, 145, 0),
-    rgb(230, 81, 0)
+    rgb(221, 63, 0),
+    rgb(230, 27, 0)
+    
   );
 }
 

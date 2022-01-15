@@ -21,12 +21,12 @@ const Contact = () => {
           <div className="contact-row">
             <i className="fas fa-phone-alt"></i>
             <p>
-              +54 381 6126830
+              +54 381 5994355
             </p>
           </div>
           <div className="contact-row">
             <i className="fas fa-envelope"></i>
-            <p>joonyyplo@gmail.com</p>
+            <p>nicocdelia@gmail.com</p>
           </div>
         </div>
       </div>
