@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import Fade from "react-reveal/Fade";     
+import Fade from "react-reveal/Fade";
 
 const Experience = () => {
   return (
@@ -21,20 +21,18 @@ const Experience = () => {
         {/* Content experience */}
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2020 - Present</h6>
+            <h6>2021 - Present</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job">RollingCode School.</div>
-              Assistan in programming classes
+              <div className="job">RollingCode School Student</div>
+              Full Stack Developer Student
             </h6>
             <p>
-              At the time work as an assistant in programming classes (Full
-              Stack MERN) and I teach tools as Javascript, HTML, CSS,
-              Bootrstrap, ReactJS, MongoDB, Mongoose, Express, NodeJS, Agile
-              Methodologies and Git. Also I analize the level of the students so
-              I have a best control of them.
+              Since 2021 I am studying programming at Rolling Code School
+              learning Javascript, HTML, CSS, Bootrstrap, ReactJS, MongoDB,
+              Mongoose, Express, NodeJS, Agile Methodologies and Git.
             </p>
           </div>
         </div>
@@ -42,36 +40,18 @@ const Experience = () => {
       <Fade bottom>
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2020 - 2021</h6>
+            <h6>2018 - Present</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job">
-                RollingCode School.
-              </div>
-              Software development.
+              <div className="job">Cortez D'Elia Law Firm</div>
+              Attorney at Law
             </h6>
             <p>
-              For 7 months I had the pleasure of working as a full stack developer for some web applications for clients of this company, applying technologies such as HTML, CSS, Javascript, ReactJS, AngularJS, Cordova Cli, MongoDB, NodeJS, Express
-            </p>
-          </div>
-        </div>
-      </Fade>
-      <Fade bottom>
-        <div className="row content-sections">
-          <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2017 - 2020</h6>
-          </div>
-          <div className="col s12 m8 xl9 content-border-left">
-            <div className="circles"></div>
-            <h6>
-              <div className="job">Teleperformance.</div>
-              Telephone Agent.
-            </h6>
-            <p>
-              I worked in customer service in the technical service area for
-              Cablevision and Edenor companies.
+              Four years ago I graduated from Law School at University of
+              Tucuman. Since then I have been working as a freelance Attorney in my own Law Office but also in
+              colaboration with another colleagues.
             </p>
           </div>
         </div>
