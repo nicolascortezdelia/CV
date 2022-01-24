@@ -1,11 +1,10 @@
 import React from "react";
 import "../Portfolio/portfolio.css";
-import clinica1 from "../../../img/portfolio/clinica1.png";
-import clinica2 from "../../../img/portfolio/clinica2.png";
-import Laboris from "../../../img/portfolio/Laboris.png";
-import Stepmed from "../../../img/portfolio/Stepmed.png";
-import sorteoscrum1 from "../../../img/portfolio/sorteoscrum1.png";
-import sorteoscrum2 from "../../../img/portfolio/sorteoscrum2.png";
+import riccos2 from "../../../img/portfolio/riccosheladeria2.png";
+import Laboris from "../../../img/portfolio/quiensehatomadotodoelvinologin.png";
+import Stepmed from "../../../img/portfolio/panaderiacocu.png";
+import sorteoscrum1 from "../../../img/portfolio/riccosheladeriaadmin.png";
+import sorteoscrum2 from "../../../img/portfolio/riccosheladeriamobile2.png";
 import Fade from "react-reveal/Fade";
 
 const Portfolio = () => {
@@ -38,10 +37,9 @@ Choose a random scrum. Desktop"
             ></img>
             <img
               className="materialboxed portfolio-col-3 z-depth-2"
-              data-caption="Rolling Vet Veterinary Clinic Project. 
-Mobile"
-              src={clinica2}
-              alt="Clinic project page"
+              data-caption="Riccos Heladeria full screen project"
+              src={riccos2}
+              alt="Ice Cream Store project page"
             ></img>
           </div>
           <div className="col s12 m6 l4">
@@ -51,14 +49,9 @@ Mobile"
 Choose a random scrum. Mobile"
               src={sorteoscrum2}
               alt="Scrum project page"
+              width={75}
             ></img>
-            <img
-              className="materialboxed z-depth-2 portfolio-col-3"
-              data-caption="
-Rolling Vet Veterinary Clinic Project. Desktop"
-              src={clinica1}
-              alt="Clinic project page"
-            ></img>
+
           </div>
           <div className="col s12 m12 l4">
             <div className="row">
@@ -68,6 +61,15 @@ Rolling Vet Veterinary Clinic Project. Desktop"
                   data-caption="
 Application for medical controls https://panel.stepmed.com.ar/login"
                   src={Stepmed}
+                  alt="Beer project page"
+                ></img>
+              </div>
+              <div className="col m6 l12 d-md-none">
+                <img
+                  className="materialboxed portfolio-col-3 z-depth-2"
+                  data-caption="
+Administrative application for lawyers: https://testlaboris.netlify.app/"
+                  src={Laboris}
                   alt="Beer project page"
                 ></img>
               </div>

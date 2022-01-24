@@ -7,25 +7,19 @@ const Footer = () => {
       <div className="container">
         <div className="row container-footer">
           <div className="col s12">
-            <h5 className="white-text">Jonathan Plodzien</h5>
+            <h5 className="white-text">Nicolás Cortez D'Elia</h5>
           </div>
           <div className="col s12">
             <a
-              href="https://github.com/JonyPlo"
+              href="https://github.com/nicolascortezdelia"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github white-text"></i>
             </a>
+            
             <a
-              href="https://gitlab.com/Joonyyplo"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-gitlab white-text"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/jonathan-plodzien-22baa376/"
+              href="https://www.linkedin.com/in/nicol%C3%A1s-cortez-d-elia/"
               target="_blank"
               rel="noopener noreferrer"
             >
