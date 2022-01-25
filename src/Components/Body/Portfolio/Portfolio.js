@@ -1,10 +1,10 @@
 import React from "react";
 import "../Portfolio/portfolio.css";
-import riccos2 from "../../../img/portfolio/riccosheladeria2.png";
-import Laboris from "../../../img/portfolio/quiensehatomadotodoelvinologin.png";
-import Stepmed from "../../../img/portfolio/panaderiacocu.png";
-import sorteoscrum1 from "../../../img/portfolio/riccosheladeriaadmin.png";
-import sorteoscrum2 from "../../../img/portfolio/riccosheladeriamobile2.png";
+import Gelatto1 from "../../../img/portfolio/riccosheladeria2.png";
+import Wine from "../../../img/portfolio/quiensehatomadotodoelvinofullsize.png";
+import Bakery from "../../../img/portfolio/panaderiacocu.png";
+import Gelatto2 from "../../../img/portfolio/riccosheladeriaadmin.png";
+import Gelatto3 from "../../../img/portfolio/riccosheladeriamobile2.png";
 import Fade from "react-reveal/Fade";
 
 const Portfolio = () => {
@@ -31,24 +31,24 @@ const Portfolio = () => {
             <img
               className="portfolio-col-3 z-depth-2 materialboxed"
               data-caption="
-Choose a random scrum. Desktop"
-              src={sorteoscrum1}
-              alt="Scrum project page"
+              Ice Cream parlor project page. Desktop"
+              src={Gelatto2}
+              alt="Ice Cream parlor project page"
             ></img>
             <img
               className="materialboxed portfolio-col-3 z-depth-2"
-              data-caption="Riccos Heladeria full screen project"
-              src={riccos2}
-              alt="Ice Cream Store project page"
+              data-caption="Riccos Heladeria full screen project https://riccosheladeria.netlify.app/index.html"
+              src={Gelatto1}
+              alt="Ice Cream parlor project page"
             ></img>
           </div>
           <div className="col s12 m6 l4">
             <img
               className="z-depth-2 materialboxed portfolio-col-3"
               data-caption="
-Choose a random scrum. Mobile"
-              src={sorteoscrum2}
-              alt="Scrum project page"
+              Ice cream parlor project page. Mobile"
+              src={Gelatto3}
+              alt="ice cream parlor project page"
               width={75}
             ></img>
 
@@ -59,29 +59,21 @@ Choose a random scrum. Mobile"
                 <img
                   className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Application for medical controls https://panel.stepmed.com.ar/login"
-                  src={Stepmed}
-                  alt="Beer project page"
+Bakery project page"
+                  src={Bakery}
+                  alt="Bakery project page"
                 ></img>
               </div>
               <div className="col m6 l12 d-md-none">
                 <img
                   className="materialboxed portfolio-col-3 z-depth-2"
                   data-caption="
-Administrative application for lawyers: https://testlaboris.netlify.app/"
-                  src={Laboris}
-                  alt="Beer project page"
+Blog about wines: https://quiensehatomadotodoelvino.netlify.app/index.html"
+                  src={Wine}
+                  alt="Wine project page"
                 ></img>
               </div>
-              <div className="col m6 l12 d-md-none">
-                <img
-                  className="materialboxed portfolio-col-3 z-depth-2"
-                  data-caption="
-Administrative application for lawyers: https://testlaboris.netlify.app/"
-                  src={Laboris}
-                  alt="Beer project page"
-                ></img>
-              </div>
+
             </div>
           </div>
         </div>
