@@ -7,7 +7,7 @@ const Header = () => {
       <div className="navbar-fixed">
         <nav>
           <div className="nav-wrapper container">
-            <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+            <a href="#mobile" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
             </a>
             <ul id="nav-mobile" className="left hide-on-med-and-down">
@@ -15,7 +15,7 @@ const Header = () => {
               <li>
                 <a
                   className="dropdown-trigger"
-                  href="#"
+                  href="#dropbutton"
                   data-target="button-dropdown"
                 >
                   Experience and more
