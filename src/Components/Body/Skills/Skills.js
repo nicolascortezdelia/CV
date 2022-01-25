@@ -103,7 +103,7 @@ const Skills = () => {
         <Fade bottom>
           <div className="col s12 m6 l6 xl6 content-skills content-sections">
             <div className="circles"></div>
-            <h6 className="bg-years">Pofessional Skills - From 0 to 100</h6>
+            <h6 className="bg-years">Pofessional Skills</h6>
             <Pie data={dataPie} width={160} />
           </div>
         </Fade>
