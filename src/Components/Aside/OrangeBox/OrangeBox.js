@@ -14,7 +14,7 @@ const OrangeBox = () => {
       <hr />
       <p className="description">
         My name is Domingo Nicolás Cortez D'Elia and I am 28 years old. I live in Tucumán,
-        Argentina. I am a full stack web developer student at Rolling Code School. Also I have a law degree
+        Argentina. I am a MERN full stack web developer student. Also I have a law degree
         
       </p>
     </div>

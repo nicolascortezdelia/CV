@@ -37,7 +37,7 @@ const Education = () => {
             </div>
             <div className="col s12 m8 xl9 content-border-left">
               <div className="circles"></div>
-              <h6>Postgraduate Course</h6>
+              <h6>Post Graduate Degree</h6>
               <p>
               Personal Data Protection at Austral University 
               
@@ -53,7 +53,7 @@ const Education = () => {
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
-            <h6>Postgraduate Course</h6>
+            <h6>Post Graduate Degree</h6>
             <p>
             Law, Innovation and Technology at University of Tucuman
              

@@ -26,8 +26,8 @@ const Experience = () => {
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job">RollingCode School Student</div>
-              Full Stack Developer Student
+              <div className="job">RollingCode School Student </div>
+              Full Stack Developer 
             </h6>
             <p>
               Since 2021 I am studying programming at Rolling Code School

@@ -63,7 +63,22 @@ const Skills = () => {
             </div>
             <div className="col s12 m8 xl9">
               <div className="circles"></div>
-              <h6>JavaScript</h6>
+              <h6>JavaScript ECMAScript 6 </h6>
+             
+            </div>
+            <div className="col s12 m8 xl9">
+              <div className="circles"></div>
+              <h6>Node JS</h6>
+             
+            </div>
+            <div className="col s12 m8 xl9">
+              <div className="circles"></div>
+              <h6>Express JS</h6>
+             
+            </div>
+            <div className="col s12 m8 xl9">
+              <div className="circles"></div>
+              <h6>Mongo DB</h6>
              
             </div>
             <div className="col s12 m8 xl9">
