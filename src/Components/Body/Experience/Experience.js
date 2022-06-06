@@ -21,12 +21,12 @@ const Experience = () => {
         {/* Content experience */}
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2021 - Present</h6>
+            <h6>2022 - Present</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job">RollingCode School Tutor </div>
+              <div className="job"> Tutor at RollingCode School  </div>
               Full Stack Developer 
             </h6>
             <p>
