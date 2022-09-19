@@ -1,6 +1,6 @@
-import React from "react";
-import "./experience.css";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import './experience.css';
+import Fade from 'react-reveal/Fade';
 
 const Experience = () => {
   return (
@@ -26,13 +26,14 @@ const Experience = () => {
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
-              <div className="job"> RollingCode School  </div>
+              <div className="job"> RollingCode School </div>
               Tutor in Programming Classes
             </h6>
             <p>
-              Since May 2022 I am working at Rolling Code School as Tutor or Teacher Assitant in Programming Classes teacning students
-              Javascript, HTML, CSS, Bootrstrap, ReactJS, MongoDB,
-              Mongoose, Express, NodeJS, Agile Methodologies and Git.
+              Since May 2022 I am working at Rolling Code School as Tutor or
+              Teacher Assitant in Programming Classes teacning students
+              Javascript, HTML, CSS, Bootrstrap, ReactJS, MongoDB, Mongoose,
+              Express, NodeJS, Agile Methodologies and Git.
             </p>
           </div>
         </div>
