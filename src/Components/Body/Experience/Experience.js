@@ -50,9 +50,9 @@ const Experience = () => {
               Attorney at Law
             </h6>
             <p>
-              Since graduating from Law School at University of Tucuman I have
+              Since graduated from Law School at University of Tucuman I have
               been self-employed as Attorney, working my own Law Office. For
-              some particular law cases I have also worked in partnership with
+              some particular cases I have also worked in partnership with
               colleagues.
             </p>
           </div>

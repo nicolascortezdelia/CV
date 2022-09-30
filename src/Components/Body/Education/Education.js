@@ -1,6 +1,6 @@
-import React from "react";
-import "../Education/education.css";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import '../Education/education.css';
+import Fade from 'react-reveal/Fade';
 
 const Education = () => {
   return (
@@ -19,31 +19,29 @@ const Education = () => {
           </div>
         </div>
         {/* Content education */}
-          <div className="row content-sections">
-            <div className="col s12 m4 xl3 center-align bg-years">
-              <h6>2021 - Present</h6>
-            </div>
-            <div className="col s12 m8 xl9 content-border-left">
-              <div className="circles"></div>
-              <h6>Rolling Code School</h6>
-              <p>Full stack web developer course in progress.</p>
-            </div>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2021 - 2022</h6>
           </div>
-        </Fade>
-        <Fade bottom>
-          <div className="row content-sections">
-            <div className="col s12 m4 xl3 center-align bg-years">
-              <h6>2021</h6>
-            </div>
-            <div className="col s12 m8 xl9 content-border-left">
-              <div className="circles"></div>
-              <h6>Post Graduate Degree</h6>
-              <p>
-              Personal Data Protection at Austral University 
-              </p>
-            </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>Full stack Web Developer Course</h6>
+            <p>Rolling Code School </p>
           </div>
-        </Fade>
+        </div>
+      </Fade>
+      <Fade bottom>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2021</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>Personal Data Protection Post Graduate Degree</h6>
+            <p>Austral University</p>
+          </div>
+        </div>
+      </Fade>
       <Fade bottom>
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
@@ -51,12 +49,8 @@ const Education = () => {
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
-            <h6>Post Graduate Degree</h6>
-            <p>
-            Law, Innovation and Technology at University of Tucuman
-             
-              
-            </p>
+            <h6>Law, Innovation and Technology Post Graduate Degree</h6>
+            <p>University of Tucuman</p>
           </div>
         </div>
       </Fade>
@@ -69,24 +63,21 @@ const Education = () => {
             <div className="circles"></div>
             <h6>Law Degree</h6>
             <p>
-              Law School University of Tucuman
+              Law School - University of Tucuman
               <br />
-              
             </p>
           </div>
         </div>
         <div className="row content-sections">
-            <div className="col s12 m4 xl3 center-align bg-years">
-              <h6>2011</h6>
-            </div>
-            <div className="col s12 m8 xl9 content-border-left">
-              <div className="circles"></div>
-              <h6>Oratory and Communications Skills Course</h6>
-              <p>
-              Santo Tomás de Aquino University 
-              </p>
-            </div>
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2011</h6>
           </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>Oratory and Communications Skills Course</h6>
+            <p>Santo Tomás de Aquino University</p>
+          </div>
+        </div>
       </Fade>
       <Fade bottom>
         <div className="row content-sections">
