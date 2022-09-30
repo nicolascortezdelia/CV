@@ -40,8 +40,6 @@ const Education = () => {
               <h6>Post Graduate Degree</h6>
               <p>
               Personal Data Protection at Austral University 
-              
-                
               </p>
             </div>
           </div>
@@ -77,6 +75,18 @@ const Education = () => {
             </p>
           </div>
         </div>
+        <div className="row content-sections">
+            <div className="col s12 m4 xl3 center-align bg-years">
+              <h6>2011</h6>
+            </div>
+            <div className="col s12 m8 xl9 content-border-left">
+              <div className="circles"></div>
+              <h6>Oratory and Communications Skills Course</h6>
+              <p>
+              Santo Tomás de Aquino University 
+              </p>
+            </div>
+          </div>
       </Fade>
       <Fade bottom>
         <div className="row content-sections">
