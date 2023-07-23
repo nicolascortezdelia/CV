@@ -31,7 +31,7 @@ const Experience = () => {
             </h6>
             <p>
               Since November 2022 I am working at Sovos as Compliance Services
-              Associate assisting mostly US based clients to be compliant with
+              Associate assisting mostly US-based clients to be compliant with
               their taxes, meeting all regulatory deadlines and needs, and
               providing training to navigate through Sovos software.
             </p>
