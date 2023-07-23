@@ -14,7 +14,7 @@ const OrangeBox = () => {
       <hr />
       <p className="description">
         My name is Domingo Nicolás Cortez D'Elia. I live in Tucumán,
-        Argentina. I work as a Compliance Services Associate at Sovos. Certified MERN full stack web Developer. Attorney at Law.
+        Argentina. I work as a Compliance Services Associate at Sovos. I am a Certified MERN full stack web Developer and an Attorney at Law.
         
       </p>
     </div>
