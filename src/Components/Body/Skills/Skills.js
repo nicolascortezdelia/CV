@@ -1,32 +1,31 @@
-import React from "react";
-import "../Skills/skills.css";
+import React from 'react';
+import '../Skills/skills.css';
 
-import { Bar } from "react-chartjs-2";
-import Chart from "chart.js";
-import Fade from "react-reveal/Fade";
+import { Bar } from 'react-chartjs-2';
+import Chart from 'chart.js';
+import Fade from 'react-reveal/Fade';
 
 const Skills = () => {
   // Graphics Font size
-  Chart.defaults.global.defaultFontFamily = "Lato";
+  Chart.defaults.global.defaultFontFamily = 'Lato';
   // Pie Graphic
-  
 
   // Bar Graphic
   const dataBar = {
     labels: [
-      "Spanish (Native)",
-      "Spoken English",
-      "Written English",
-      "English Understanding",
+      'Spanish (Native)',
+      'Spoken English',
+      'Written English',
+      'English Understanding',
     ],
     datasets: [
       {
-        label: ["Languages"],
-        backgroundColor: "#e6510065",
-        borderColor: "#e6510065",
+        label: ['Languages'],
+        backgroundColor: '#e6510065',
+        borderColor: '#e6510065',
         borderWidth: 1,
-        hoverBackgroundColor: "#e6510096",
-        hoverBorderColor: "#e65100",
+        hoverBackgroundColor: '#e6510096',
+        hoverBorderColor: '#e65100',
         data: [100, 100, 100, 100, 0],
       },
     ],
@@ -51,53 +50,46 @@ const Skills = () => {
       <div className="row">
         <Fade bottom>
           <div className="col s12 m6 l6 xl6 content-skills content-sections">
-            
             <h4 className="bg-years">Professional Skills</h4>
             <hr />
             <div className="row content-sections">
-            
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>React JS</h6>
-             
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Communication</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Time management</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Stress management</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Teamwork</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6> Organizational </h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Decision-making</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>Problem-solving</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>React JS, Node JS, Express JS, Mongo DB</h6>
+              </div>
+              <div className="col s12 m8 xl9">
+                <div className="circles"></div>
+                <h6>JavaScript, HTML, CSS</h6>
+              </div>
             </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>JavaScript ECMAScript 6 </h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>Node JS</h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>Express JS</h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>Mongo DB</h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>CSS</h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>Bootstrap</h6>
-             
-            </div>
-            <div className="col s12 m8 xl9">
-              <div className="circles"></div>
-              <h6>HTML</h6>
-             
-            </div>
-          </div>
-            
           </div>
         </Fade>
         <Fade bottom>

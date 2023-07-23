@@ -11,9 +11,9 @@ const Contact = () => {
           <div className="contact-row">
             <i className="fas fa-map-marker-alt"></i>
             <p>
-              Tucumán,
-              <br />
               San Miguel de Tucumán,
+              <br />
+              Tucumán,
               <br />
               Argentina.
             </p>
