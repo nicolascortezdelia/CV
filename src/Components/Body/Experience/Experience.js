@@ -26,12 +26,30 @@ const Experience = () => {
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
             <h6>
+              <div className="job"> Sovos </div>
+              Compliance Services Associate
+            </h6>
+            <p>
+              Since May 2022 I am working at Sovos as Compliance Services
+              Associate assisting mostly US based clients to be compliant with
+              their taxes, meeting all regulatory deadlines and needs, and
+              providing training to navigate through Sovos software.
+            </p>
+          </div>
+        </div>
+        <div className="row content-sections">
+          <div className="col s12 m4 xl3 center-align bg-years">
+            <h6>2022</h6>
+          </div>
+          <div className="col s12 m8 xl9 content-border-left">
+            <div className="circles"></div>
+            <h6>
               <div className="job"> RollingCode School </div>
               Tutor in Programming Classes
             </h6>
             <p>
-              Since May 2022 I am working at Rolling Code School as Tutor or
-              Teacher Assitant in Programming Classes teacning students
+              I worked at Rolling Code School from May to December as Tutor or
+              Teacher Assitant in Programming Classes teaching students
               Javascript, HTML, CSS, Bootrstrap, ReactJS, MongoDB, Mongoose,
               Express, NodeJS, Agile Methodologies and Git.
             </p>

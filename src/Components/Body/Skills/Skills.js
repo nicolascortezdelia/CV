@@ -27,7 +27,7 @@ const Skills = () => {
         borderWidth: 1,
         hoverBackgroundColor: "#e6510096",
         hoverBorderColor: "#e65100",
-        data: [100, 90, 75, 90, 0],
+        data: [100, 100, 100, 100, 0],
       },
     ],
   };
