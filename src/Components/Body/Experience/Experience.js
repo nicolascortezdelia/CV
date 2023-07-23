@@ -30,9 +30,9 @@ const Experience = () => {
               Compliance Services Associate
             </h6>
             <p>
-              Since November 2022 I am working at Sovos as Compliance Services
+              Since November 2022 I have been working at Sovos as a Compliance Services
               Associate assisting mostly US-based clients to be compliant with
-              their taxes, meeting all regulatory deadlines and needs, and
+              their taxes, meeting all their regulatory deadlines and needs, and
               providing training to navigate through Sovos software.
             </p>
           </div>
