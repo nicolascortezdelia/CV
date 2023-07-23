@@ -9,7 +9,7 @@ const OrangeBox = () => {
         <br />
         <b>Cortez D'Elia</b>
       </h1>
-      <h6>Full stack web Developer Student</h6>
+      
       <h5>PROFILE</h5>
       <hr />
       <p className="description">

@@ -21,7 +21,7 @@ const Experience = () => {
         {/* Content experience */}
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2022 - Present</h6>
+            <h6>November 2022 - <br /> Present</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
@@ -30,7 +30,7 @@ const Experience = () => {
               Compliance Services Associate
             </h6>
             <p>
-              Since May 2022 I am working at Sovos as Compliance Services
+              Since November 2022 I am working at Sovos as Compliance Services
               Associate assisting mostly US based clients to be compliant with
               their taxes, meeting all regulatory deadlines and needs, and
               providing training to navigate through Sovos software.
@@ -39,7 +39,7 @@ const Experience = () => {
         </div>
         <div className="row content-sections">
           <div className="col s12 m4 xl3 center-align bg-years">
-            <h6>2022</h6>
+            <h6>May 2022 - December 2022</h6>
           </div>
           <div className="col s12 m8 xl9 content-border-left">
             <div className="circles"></div>
