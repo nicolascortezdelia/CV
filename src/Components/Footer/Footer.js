@@ -10,13 +10,7 @@ const Footer = () => {
             <h5 className="white-text">Nicolás Cortez D'Elia</h5>
           </div>
           <div className="col s12">
-            <a
-              href="https://github.com/nicolascortezdelia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-github white-text"></i>
-            </a>
+            
             
             <a
               href="https://www.linkedin.com/in/nicolas-cortez-d-elia/"

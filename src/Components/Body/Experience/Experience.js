@@ -33,7 +33,7 @@ const Experience = () => {
             </h6>
             <p>
     As a Compliance Services Associate at Sovos my responsabilities are:
-    <ul>
+    <ul className='task-list'>
         <li>- Assist mostly US-based clients to be compliant with their taxes, and meet all their regulatory deadlines for 1099 form types, B-Notices, and P-Notices. </li>
         <li>- Handle W9s.</li>
         <li>- Manage the flow of day-to-day tasks and questions from clients.</li>
