@@ -24,9 +24,7 @@ function App() {
         <li>
           <a href="#skills">Prof Skills</a>
         </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
-        </li>
+        
       </ul>
       <main className="container">
         <div className="row">
@@ -46,7 +44,7 @@ function App() {
           </div>
           <div className="col s12 sections">
             <Skills />
-            <Portfolio />
+            
           </div>
         </div>
       </main>
