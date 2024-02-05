@@ -79,7 +79,7 @@ const Skills = () => {
               </div>
               <div className="col s12 m8 xl9">
                 <div className="circles"></div>
-                <h6>Customer Support</h6>
+                <h6>Customer Service</h6>
               </div>
               <div className="col s12 m8 xl9">
                 <div className="circles"></div>
@@ -92,11 +92,7 @@ const Skills = () => {
             
               <div className="col s12 m8 xl9">
                 <div className="circles"></div>
-                <h6>React JS, Node JS, Express JS, Mongo DB</h6>
-              </div>
-              <div className="col s12 m8 xl9">
-                <div className="circles"></div>
-                <h6>JavaScript, HTML, CSS</h6>
+                <h6>Utilization of CRM systems</h6>
               </div>
             </div>
           </div>
